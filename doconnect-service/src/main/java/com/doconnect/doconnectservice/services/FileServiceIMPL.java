@@ -9,9 +9,28 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+/*
+     * @Author : Banoth Kalyan
+     * Created Date : 25-8-2022
+     * Modified Date : 29-8-2022
+     * Description : Implementation of file service
+     * Params : None
+     * Return Type : None
+     */
 
 @Service
 public class FileServiceIMPL implements FileService{
+
+	/*
+     * @Author : Banoth Kalyan
+     * Created Date : 25-8-2022
+     * Modified Date : 29-8-2022
+     * Description : uploading of image
+     * Params : String path, MultipartFile file
+     * Return Type :  Name of a file
+	 * Exception : IOException
+     */
+
 
 	@Override
 	public String uploadImage(String path, MultipartFile file) throws IOException {

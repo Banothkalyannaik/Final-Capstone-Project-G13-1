@@ -5,6 +5,16 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+/*
+     * @Author : Banoth Kalyan
+     * Created Date : 25-8-2022
+     * Modified Date : 29-8-2022
+     * Description : Email Service implementation
+     * Params : String toEmail,String body,String subject
+     * Return Type : None
+	 * Exception : None
+     */
+
 
 @Service
 public class EmailSenderService {

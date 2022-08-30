@@ -19,6 +19,16 @@ import com.doconnect.doconnectservice.services.FileService;
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/doconnect/file")
+
+/*
+     * @Author : Banoth Kalyan
+     * Created Date : 25-8-2022
+     * Modified Date : 29-8-2022
+     * Description : Created filecontroller for all CRUD mapping
+     * Params :None
+     * Return Type : Returns meassage when image is sucessfully uploaded
+	 * Exception : None
+     */
 public class FileController {
 	
 	
